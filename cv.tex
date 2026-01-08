@@ -1,0 +1,285 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{xcolor}
+
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.7in}
+\addtolength{\textheight}{1.2in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{blue}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\thispagestyle{empty}  % Remove page number from first page
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Alphonsus Adu-Bredu} \\ \vspace{1pt}
+    \small +1 (617) 823-6733 $|$ \href{mailto:adubredu@umich.edu}{\color{blue}{adubredu@umich.edu}} $|$ 
+    \href{http://alphonsusadubredu.com}{\color{blue}{alphonsusadubredu.com}}  
+\end{center}
+
+
+%-----------SUMMARY-----------
+\section{\color{blue}Summary}
+I am interested in the integration of high-level planning with low-level control of dynamically complex robots (like bipedal humanoid robots) in a fashion that is taskable and reactive to unexpected changes in the robot's environment. My expertise include task and motion planning, reactive control, predictive control, reinforcement learning, numerical optimization and technical computing.
+
+%-----------EDUCATION-----------
+\section{\color{blue}Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Ph.D. University of Michigan}{Ann Arbor, MI}
+      {Robotics}{2020 -- 2023}
+      \resumeItemListStart
+          \resumeItem {Advisor: Professor Odest Chadwicke Jenkins}
+          \resumeItem{Dissertation Title: Long-Horizon Planning Under Uncertainty and Geometric Constraints for Mobile Manipulation by Autonomous Humanoid Robots}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Msc. University of Michigan}{Ann Arbor, MI}
+      {Robotics}{2020 -- 2022}
+            \resumeItemListStart
+          \resumeItem {Advisor: Professor Odest Chadwicke Jenkins}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Bsc. Tufts University}{Medford - MA}
+      {Mechanical Engineering and Computer Science}{2016 -- 2020}
+      \resumeItemListStart
+      \resumeItem {Graduated with Honors}
+          \resumeItem {Capstone Project: Modular Assistive Robot for paraplegics}
+          \resumeItem {Advisor: Professor William Messner}
+      \resumeItemListEnd 
+       
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{\color{blue}Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Humanoid Controls and RL Staff Software Engineer}{September 2023 -- Present}
+      {Boston Dynamics}{Waltham, MA}
+      \resumeItemListStart
+        \resumeItem{Lead contributor in developing RL whole-body tracking controller for the electric Atlas robot}
+        \resumeItem{Led efforts in developing Motion Mimic RL policies for complex dynamic motions including dance, cartwheel, backflip, commando crawl, and stylized locomotion. \href{https://youtu.be/I44_zbEwz_w?si=49-rNDqqO7Q2qXoX}{\color{blue}{Video link 1.}} \href{https://youtu.be/n6ISdRkS37I?si=-CIsuk3TX-cd9ZiZ}{\color{blue}{Video link 2.}}}
+        \resumeItem{Led the design and implementation of fall recovery and safety controller for both hydraulic and electric Atlas robots. \href{https://youtu.be/F_7IPm7f1vI?si=kLXKdG4zUl6dktKm}{\color{blue}{Video link 1.}} \href{https://youtu.be/nAgTgwak7ME?si=crVoKdeVDeftcS47}{\color{blue}{Video link 2.}} \href{https://youtube.com/shorts/SFKM-Rxiqzg?si=3_HKGIW1rzgo5JDz}{\color{blue}{Video link 3.}}} 
+    \resumeItemListEnd
+    
+  \resumeSubheading
+      {Robotics Research Intern}{June 2022 -- September 2022}
+      {Ford Motor Company}{Ann Arbor, MI}
+      \resumeItemListStart
+        \resumeItem{Developed a whole-body control framework for last-mile package delivery with the Digit Bipedal Humanoid Robot } 
+    \resumeItemListEnd
+  
+  \resumeSubheading
+      {Graduate Research Assistant}{August 2020 -- August 2023}
+      {Laboratory for Progress - University of Michigan}{Ann Arbor, MI}
+      \resumeItemListStart
+      \resumeItem{Research  on planning and reactive control techniques to enable robots to perform complex, long-horizon tasks in partially observed state spaces} 
+      \resumeItemListEnd 
+  
+  \resumeSubheading
+      {Robotics Engineering Intern}{May 2019 -- August 2019}
+      {Near Earth Autonomy}{Pittsburgh, PA}
+      \resumeItemListStart
+        \resumeItem{Implemented algorithms for safe robot planning and navigation amongst dynamic obstacles in enclosed spaces } 
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Undergraduate Research Assistant}{February 2017 -- May 2019}
+      {Assistive Robotics Group - Tufts University}{Medford, MA}
+      \resumeItemListStart
+      \resumeItem{Developed hardware and implemented feedback control algorithms on a kitchen-assistant robot for use by paraplegic individuals}
+        \resumeItem{Developed a kitchen-assistant robotic software platform which generated task and motion plans to perform certain kitchen tasks.}
+        \resumeItem{Coordinated 6 user sessions  of the kitchen-assistant mobile-manipulator robot with human subjects} 
+      \resumeItemListEnd 
+    
+
+     \resumeSubheading
+      {Undergraduate Research Assistant}{January 2017 -- May 2019}
+      {Urban Attitudes Lab - Tufts University}{Medford, MA}
+      \resumeItemListStart
+      \resumeItem{Developed multiple Twitter bots equipped with state-of-the-art language models to spread ideas about urban planning on Twitter and gauge people's reaction to them}
+        \resumeItem{Trained Deep Learning models to predict attributes such as safety, affluence and liveliness from images of neighborhoods in Montreal and Toronto} 
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{\color{blue}Publications}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Journal Articles} }{}
+          \resumeItemListStart
+              \resumeItem{\textbf{Alphonsus Adu-Bredu}, Zhen Zeng, Neha Pusalkar, and Odest Chadwicke Jenkins. Elephants don’t pack groceries:  Robot task planning for low entropy belief states.\textit{ IEEE  Robotics  and  Automation Letters (RA-L)},   (Volume: 7, Issue: 1, Jan. 2022). \href{https://arxiv.org/abs/2011.09105}{\color{blue}{Link to paper.}} }
+            \resumeItem{Using Deep Learning to Examine the Relationship between Transportation Policy and Human Perception of the Built Environment. Justin Hollander, Gio Nikolaishvili, \textbf{Alphonsus Adu-Bredu}, Minyu Situ, Shabnam Bista.  \textit{Environment and Planning B: Urban Analytics and City Science Journal. September} 2020. \href{https://journals.sagepub.com/doi/abs/10.1177/2399808320959079}{\color{blue}{Link to paper.}} } 
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Conference Proceedings}} { }
+          \resumeItemListStart          
+          \resumeItem{\textbf{Alphonsus Adu-Bredu*}, Grant Gibson*, Jessy W Grizzle. Exploring Kinodynamic Fabrics for Reactive Whole-Body Control of Underactuated Humanoid Robots. In \textit{2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE}, 2023. \href{https://arxiv.org/abs/2303.04279}{\color{blue}{Link to paper.}}}
+          \resumeItem{\textbf{Alphonsus Adu-Bredu}, Nikhil Devraj, Odest Chadwicke Jenkins. Optimal Constrained Task Planning as Mixed Integer Programming. In \textit{2022 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE}, 2022. \href{https://arxiv.org/abs/2211.09632}{\color{blue}{Link to paper.}}}
+           \resumeItem{\textbf{Alphonsus  Adu-Bredu},  Nikhil  Devraj,  Pin-Han  Lin,  Zhen  Zeng,  and  Odest  Chadwicke  Jenkins.  Probabilistic inference in planning for partially observable long horizon problems.  In \textit{2021 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS). IEEE}, 2021.\textcolor{purple}{(Won the Best Paper Award on Mobile Manipulation). \href{https://arxiv.org/abs/2110.09153}{\color{blue}{Link to paper.}}}} 
+            \resumeItem{Cartbot: A Direct-Manipulation Minimal Degrees-of-Freedom Mobile Assistive Robot to Maximize User Agency. Kentaro Barhydt, \textbf{Alphonsus Adu-Bredu}, Sarah Everhart-Skeels, Gary Bedell, Karen Panetta, William Messner. \textit{IEEE International Conference on Human-Machine Systems (ICHMS), Rome, Italy, September} 2020. \href{https://ieeexplore.ieee.org/abstract/document/9209385}{\color{blue}{Link to paper.}}} 
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{Pre-prints}} { }
+          \resumeItemListStart
+          \resumeItem{GODSAC*: Graph Optimized DSAC* for Robot Relocalization. \textbf{Alphonsus Adu-Bredu}, Noah Del Coro, Tianyi Liu. 2021. \textit{arXiv:2105.00546}. \href{https://arxiv.org/abs/2105.00546}{\color{blue}{Link to paper.}}}
+          \resumeItem{Contact simulation of a 2D Bipedal Robot kicking a ball. \textbf{Alphonsus Adu-Bredu}. 2021. \textit{arXiv:2112.08426}. \href{https://arxiv.org/abs/2112.08426}{\color{blue}{Link to paper.}}} 
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\section{\color{blue}Awards}
+\resumeItemListStart 
+     \resumeItem{Best Paper Award on Mobile Manipulation, IROS 2021 - Winner.}
+    \resumeItem{Qualcomm Innovation Fellowship 2022 - Winner.} 
+ \resumeItemListEnd
+
+\section{\color{blue}Service}
+\resumeItemListStart 
+     \resumeItem{Reviewer for \textit{IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}. 2021 - 2023.}
+    \resumeItem{Reviewer for \textit{Autonomous Robots Journal}. 2021.}
+    \resumeItem{Reviewer for \textit{Towards Autonomous Robotic Systems (TAROS) Conference}. 2021}
+    \resumeItem{Reviewer for \textit{IEEE  Robotics  and  Automation Letters (RAL)}, 2021 - 2022.}
+ \resumeItemListEnd
+ 
+ \section{\color{blue}Teaching Assistantships}
+\resumeItemListStart 
+     \resumeItem{Robotic Systems Lab, Fall 2021 - Graduate Level course}
+     \resumeItem{Robotic Systems Lab, Winter 2022 - Graduate Level course}
+     \resumeItem{Computational Linear Algebra, Fall 2022 - Undergraduate Level course} 
+ \resumeItemListEnd
+ 
+ 
+\section{\color{blue}Selected Open-source libraries}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{\href{https://github.com/adubredu/KinodynamicFabrics.jl}{\color{blue}{KinodynamicFabrics.jl}} }{: Julia implementation of the Kinodynamic Fabrics whole-body control framework}  \\
+    \textbf{\href{https://github.com/adubredu/Dynamatics.jl}{\color{blue}{Dynamatics.jl}} }{: Julia package for code-generating stand-alone Julia robot kinematics and dynamics functions}  \\
+    \textbf{\href{https://github.com/adubredu/Fabrics.jl}{\color{blue}{Fabrics.jl}} }{: Julia implementation of Geometric Fabrics}  \\
+     \textbf{\href{https://github.com/adubredu/contact_sim.jl}{\color{blue}{contact\_sim.jl}} }{: Julia library for 2D physics simuation}  \\
+     \textbf{\href{https://github.com/adubredu/MuJoCo.jl}{\color{blue}{MuJoCo.jl}} }{: A light-weight Julia wrapper for the MuJoCo Physics simulator}  \\
+     \textbf{\href{https://github.com/adubredu/gtpmip.jl}{\color{blue}{gtpmip.jl}} }{: Julia library for Grounded Task Planning as Mixed Integer Programming}  \\ 
+     \textbf{\href{https://github.com/adubredu/godsacstar}{\color{blue}{godsacstar}} }{: C++ library for graph-optimized object pose estimation with RGB images}  \\
+    }}
+ \end{itemize}
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{\color{blue}Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming languages}{: Julia, Python, C++, C, Matlab}\\
+      \textbf{Software}{: Pinocchio, MuJoCo, PyBullet, ROS, JuMP.jl, MeshCat, OnShape, Arduino, Git, Linux} 
+    }}
+ \end{itemize}
+ 
+
+%-------------------------------------------
+\end{document}
