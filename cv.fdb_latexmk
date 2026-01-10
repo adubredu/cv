@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1767915278 "/home/BOSDYN/aadubredu/explore/cv/cv.tex" "cv.pdf" "cv" 1767915278
+["pdflatex"] 1768041093 "/home/BOSDYN/aadubredu/explore/cv/cv.tex" "cv.pdf" "cv" 1768041093
   "/etc/texmf/web2c/texmf.cnf" 1767831977 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/BOSDYN/aadubredu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk" 1767912844 11524 326d5d6b703e9f3e17fbffc4c5bcd0fd ""
   "/home/BOSDYN/aadubredu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk" 1767912845 12644 59fd7584e907f03b5edcd0bf6569ef33 ""
@@ -9,7 +9,7 @@
   "/home/BOSDYN/aadubredu/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmr10.657pk" 1767912850 11872 fc08be1b7f53600d157b91b8f1c6be72 ""
   "/home/BOSDYN/aadubredu/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmsy6.600pk" 1767912846 8872 03e2666754563b6c0466114260c5079c ""
   "/home/BOSDYN/aadubredu/.texlive2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1767912328 1405645 36d8dd577c53fc2ef4ffa6d381fced34 ""
-  "/home/BOSDYN/aadubredu/explore/cv/cv.tex" 1767915278 14360 94f26e498d157cd99237486fb2c3f1e8 ""
+  "/home/BOSDYN/aadubredu/explore/cv/cv.tex" 1768041093 14455 22f48fe46ee8e9e1252a213b97f48dda ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk" 1136849718 11496 ba2f638a41e1f9ffcd2b35d81b165537 ""
   "/usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk" 1136849718 10892 c562fda04f99936b3380df8b485bf110 ""
@@ -92,9 +92,9 @@
   "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty" 1635798903 56029 3f7889dab51d620aa43177c391b7b190 ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1644012257 39432 7155514e09a3d69036fac785183a21c2 ""
-  "cv.aux" 1767915278 1885 12de3c0fcf0606fc7d9a177c1af92cd6 "pdflatex"
-  "cv.out" 1767915278 1179 667116c541e2c944a40d66744247b2b9 "pdflatex"
-  "cv.tex" 1767915278 14360 94f26e498d157cd99237486fb2c3f1e8 ""
+  "cv.aux" 1768041093 1885 12de3c0fcf0606fc7d9a177c1af92cd6 "pdflatex"
+  "cv.out" 1768041093 1179 667116c541e2c944a40d66744247b2b9 "pdflatex"
+  "cv.tex" 1768041093 14455 22f48fe46ee8e9e1252a213b97f48dda ""
   (generated)
   "cv.aux"
   "cv.log"

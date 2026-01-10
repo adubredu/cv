@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.8)  8 JAN 2026 18:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.1.8)  10 JAN 2026 05:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -383,12 +383,12 @@ Here is how much of TeX's memory you used:
  28503 multiletter control sequences out of 15000+600000
  475825 words of font info for 53 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,11n,63p,534b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,11n,63p,562b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/BOSDYN/aadubredu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </home/BOSDYN/aadubredu/.texlive2021/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> </home/BOSDYN/aadubredu/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmsy6.600pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmti10.pk> </home/BOSDYN/aadubredu/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmbx10.657pk> </home/BOSDYN/aadubredu/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmr10.657pk> </home/BOSDYN/aadubredu/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmcsc10.720pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> </usr/share/texlive/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> </home/BOSDYN/aadubredu/.texlive2021/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.1244pk>
-Output written on cv.pdf (3 pages, 97825 bytes).
+Output written on cv.pdf (3 pages, 97890 bytes).
 PDF statistics:
- 424 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
+ 425 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
  13 named destinations out of 1000 (max. 500000)
  73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
